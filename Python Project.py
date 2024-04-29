@@ -98,7 +98,7 @@ investment_amount = st.slider("Enter an Investment Amount", 50, 10000, 500)
 # Calculate the average simulation results for 1 week, 1 month, 6 months, and 1 year
 simulated_mean = np.mean(simulations, axis=0)
 
-# Ensure indices do not exceed the array's bounds
+# Ensuring indices do not exceed the array's bounds
 max_days = len(simulated_mean)
 # Use min to avoid IndexError
 profit_1_week = investment_amount * (simulated_mean[min(6, max_days - 1)] - stock_data['Adj Close'].iloc[-1])
