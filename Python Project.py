@@ -58,6 +58,15 @@ st.write("Data loaded.")
 st.subheader ('Raw data')
 st.write(stock_data.tail())
 
+# Brief definitions of key stock metrics
+st.subheader('Definitions of Stock Metrics')
+st.write("**Open:** The stock price at the start of the trading day.")
+st.write("**Close:** The stock price at the end of the trading day.")
+st.write("**High:** The highest stock price during the trading day.")
+st.write("**Low:** The lowest stock price during the trading day.")
+st.write("**Adj Close:** The adjusted closing price, accounting for dividends and splits.")
+st.write("**Volume:** The total number of shares traded during the day.")
+
 # Plotting raw data with all key metrics
 st.subheader("Detailed Stock Price History")
 fig = go.Figure()
