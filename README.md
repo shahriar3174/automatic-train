@@ -1,7 +1,8 @@
 # automatic-train
 Example git repo for CIS 1051 Spring 2024
 
-Video url - 
+Video url - https://youtu.be/asoILQ5TFJk
+
 
 I encountered challenges right from the beginning of this project. I couldn't get Streamlit to run on VS Code or Jupyter Notebook. After extensive searching, I found a workaround by using Google Colab to execute my code. This project has been a learning experience in more ways than one—I gained new insights into data visualization, stock market analysis, and Monte Carlo simulations. These were skills I never imagined I would acquire when I first started. The main motivation for this project was to build a data science portfolio, and I thought this project would be a great start.
 
